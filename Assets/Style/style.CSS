@@ -1,0 +1,338 @@
+
+* {
+    margin:0;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+header {
+ 
+    font-family: 'Barlow', sans-serif;
+    background-color: #857c80;
+}
+
+#triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 120px solid transparent;
+    border-bottom: 120px solid transparent;
+    border-left: 150px solid #434343;
+    float:left;
+  
+    
+}
+
+#entete {
+    float:right;
+    margin-right: 600px;
+    margin-top: 50px;
+}
+
+
+#triangle, #entete {
+    display: inline-block;
+}
+
+
+
+
+h1 {
+    font-family: 'Petit Formal Script', cursive;
+    margin-top: 20px;
+    font-size: 45px;   
+}
+
+#prenom {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 36px;
+}
+
+#prenom, h1, {
+    
+    margin-bottom: 10px;
+}
+
+#h4 {
+    
+    margin-bottom: 25px;
+}
+
+nav {
+    clear:both;
+    
+    margin-top: 65px;
+    padding: 10px;
+}
+
+ul {
+    
+    padding: 0;
+    
+}
+
+ul li {
+    list-style: none;
+}
+
+nav ul li i {
+    
+    color: #434343;
+}
+
+
+nav ul li, .liennav {
+    
+    display: inline-block;
+    text-decoration: none; 
+    width: 160px;
+    margin:auto;
+    margin-left:20px;
+    padding: 10px 25px;
+    
+    
+}
+
+
+.liennav a{
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    font-size: 17px;
+  
+}
+
+.liennav a:hover{
+    
+    color:#FFF;
+    font-weight: bold;
+    padding:11px;
+}
+
+#left {
+    
+    float:left;
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+
+#right {
+    
+    float: right;
+}
+
+#blocone, #bloctwo, #loisirs {
+    
+    background-color: #e8e1e5;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 20px;
+    margin-right: 60px;
+    box-shadow: 8px 8px 12px #aaa;
+
+}
+
+
+#blocone, #experience {
+    
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#blocone p {
+    
+    padding-bottom:10px;
+}
+
+
+
+#bloctwo, #experience, #formation, #loisirs {
+    
+    margin-top:50px;
+}
+
+
+#img1 {
+    
+    padding-left: 5px;
+    padding-right: 10px;
+}
+#img2 {
+    padding-right: 10px;
+}
+#img3 {
+    padding-right: 10px;
+}
+#img4 {
+    padding-right: 10px;
+}
+#ville {
+    padding-left: 24px;
+}
+.outils {
+    padding: 10px;
+    
+}
+
+#outils1, #outils2, #outils3 {
+    
+    padding-right: 10px;
+}
+
+
+.langues{
+    padding-bottom: 4px;
+    padding-left: 10px;
+}
+
+
+.soustitre {
+    
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-size:18px;
+}
+
+
+.blocaligneright {
+    float: right;
+    
+}
+
+
+
+
+.experience, .formation {
+    
+    background-color: #e8e1e5;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-right: 70px;
+    padding: 25px;
+    padding-left: 30px;
+    padding-left: 30px;
+    box-shadow: 8px 8px 12px #aaa;
+}
+
+
+.title {
+    
+    text-align: center; 
+    font-variant:small-caps;
+    font-size: 23px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+
+
+.societe, .ecole {
+    font-style: italic;
+}
+
+
+
+div .blocentier p {
+    
+    display: inline;
+    padding: 0px 0px 0px 5px;
+}
+
+
+.fonction, .date {
+    
+    font-weight: bold;
+    color:#434343;
+}
+
+#mk {
+    
+    padding-left: 40px;
+}
+
+#moncler  {
+    
+    padding-left: 19px;
+}
+
+#catteau {
+    padding-left: 38px;
+}
+
+#campus {
+    
+    padding-left: 36px;
+}
+
+#imie {
+    
+    padding-left: 26px;
+}
+
+#ispg {
+    
+    padding-left: 26px;
+}
+
+#wenzao {
+    
+    padding-left: 26px;
+}
+
+
+#college {
+    
+    padding-left: 38px;
+}
+.description {
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 0px 0px 135px;
+}
+
+.description2 {
+       margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0px 0px 0px 88px;
+}
+
+
+
+
+.experience {
+    
+  clear: both;
+}
+
+
+.formation {
+    
+    margin-bottom: 80px;
+}
+
+
+footer {
+    
+    
+    clear: both;
+    background-color: #857c80;
+ 
+}
+
+footer ul {
+    position:relative;
+    margin:0 auto;
+    width: 415px;
+}
+
+footer ul li{
+    
+    display: inline-block;
+    padding: 8px 0px 8px 60px;
+}
+
+#twitter {
+    
+    width:50px;
+}
